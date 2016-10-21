@@ -1,3 +1,5 @@
+# this function calculates the number and sizes of fragments after restriction digest of a plasmid or BAC 
+
 # restfrag(x)
 # takes argument x, which is a vector containing list of cut sites
 # calculates number of fragments and fragment sizes
