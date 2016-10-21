@@ -5,7 +5,7 @@
 # calculates number of fragments and fragment sizes
 
 def restfrag(x):
-    size = raw_input("Enter size of BAC in bp: ") # assume circular BAC vector
+    size = raw_input("Enter size of plasmid or BAC in bp: ") # assume circular BAC vector
     fragment_sizes = []
     first = x[0]+(int(size)-x[len(x)-1])
     fragment_sizes.append(first)
