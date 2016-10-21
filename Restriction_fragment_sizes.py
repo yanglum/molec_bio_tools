@@ -2,6 +2,7 @@
 
 # restfrag(x)
 # takes argument x, which is a vector containing list of cut sites
+# predicted cut sites can be obtained from http://www.restrictionmapper.org/
 # calculates number of fragments and fragment sizes
 
 def restfrag(x):
